@@ -196,4 +196,3 @@ def speakerDiarization(fileName, numOfSpeakers, mtSize=2.0, mtStep=0.2, stWin=0.
     nSpeakersFinal = sRange[imax]  # optimal number of clusters
 
     return nSpeakersFinal
-
