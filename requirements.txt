@@ -1,0 +1,19 @@
+sudo apt-get install python-numpy
+
+sudo apt-get install python-matplotlib
+
+sudo apt-get install python-scipy
+
+sudo apt-get install libgsl0-dev
+
+mlpy:
+wget http://sourceforge.net/projects/mlpy/files/mlpy%203.5.0/mlpy-3.5.0.tar.gz
+tar xvf mlpy-3.5.0.tar.gz
+cd mlpy-3.5.0
+sudo python setup.py install
+
+sudo pip install scikit-learn==0.16.1
+
+sudo pip install scikits.talkbox
+
+sudo easy_install simplejson
